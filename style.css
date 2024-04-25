@@ -245,6 +245,10 @@ span.number{
     align-items: center;
 }
 
+button:hover{
+    background: linear-gradient(to bottom,var(--Light-slate-blue), var(--Light-royal-blue));
+}
+
 @media screen and (min-width: 500px){
     .container{
         display: flex;
